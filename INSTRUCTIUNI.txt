@@ -1,0 +1,23 @@
+B53 SkyLog - DEMO
+
+PUBLICARE GRATUITA CU GITHUB PAGES
+1. Intra pe github.com si autentifica-te.
+2. Creeaza un repository nou PUBLIC, de exemplu b53-skylog-demo.
+3. Incarca cele patru fisiere DIN arhiva, direct in radacina repository-ului:
+   index.html, manifest.webmanifest, sw.js, icon.svg
+4. Deschide Settings > Pages > Build and deployment > Source: Deploy from a branch.
+5. Alege branch main si folder /(root), apoi Save.
+6. Asteapta publicarea. Linkul va avea forma https://UTILIZATOR.github.io/b53-skylog-demo/
+7. Deschide linkul in Chrome pe Android sau Safari pe iPhone.
+8. Android: meniu Chrome > Install app / Add to Home screen.
+   iPhone: Safari > Share > Add to Home Screen.
+9. Testeaza: Backup > Adauga 3 salturi fictive; activeaza modul avion; redeschide aplicatia.
+
+IMPORTANT
+- Nu incarca arhiva ZIP ca atare: extrage fisierele si incarca-le individual.
+- Repository-ul este PUBLIC: codul aplicatiei este vizibil, NU datele introduse local.
+- Nu include date reale, personale sau militare sensibile in fisierele publicate.
+- Datele se salveaza in localStorage, pe dispozitiv si in contextul browserului.
+- Stergerea datelor site-ului poate sterge jurnalul. Foloseste Exporta backup JSON.
+- Acesta este un prototip, nu un sistem de evidenta oficiala.
+- Pe iOS/Android, instalarea poate varia in functie de versiunea browserului.
